@@ -1,0 +1,18 @@
+@import './font.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'MyCustomFont';
+}
+
+body {
+  font-family: 'MyCustomFont';
+
+}
+
+#root {
+  font-family: 'MyCustomFont';
+
+}

@@ -1,0 +1,81 @@
+/* Global styles */
+.App {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif; /* Using the imported Google font */
+  background-color: #222; /* Optional: Gives a dark background to the app */
+  color: #fff; /* Text color for the app */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera, and Firefox */
+}
+
+/* Configurator styles */
+.configurator {
+  position: fixed;
+  right: 24px;
+  width: 320px;
+  bottom: 25vh;
+  padding: 16px;
+}
+
+/* Section title */
+.configurator_section_title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+/* Container for labels (Top Colour and Bottom Colour) */
+.configurator_section_values {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px; /* Adds space between the items */
+  margin-top: 24px;
+}
+
+/* Each item */
+.item {
+  display: flex;
+  flex-direction: column; /* This will keep each label as a separate block inside */
+  align-items: center;
+  justify-content: center;
+}
+
+.item_label {
+  font-size: 12px;
+  color: #acacac;
+  text-align: center;
+}
+
+/* Color buttons styling */
+.color_buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.color_button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.color_button:hover {
+  transform: scale(1.1);
+}
+
+.item:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}

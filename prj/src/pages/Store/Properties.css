@@ -1,0 +1,22 @@
+.fwrapper{
+  background-color: #00031F;
+}
+.properties-container{
+  gap: 2rem;
+}
+.search{
+  width: clamp(12rem, 100%, 28rem);
+  border-radius: 30px;
+  border: 1px solid rgba(120, 120, 120, 0.374);
+  flex-wrap: nowrap;
+}
+
+.search .button{
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 10px 15px;
+}
+
+.properties-container .search-bar input{
+  width: 70%;
+}
